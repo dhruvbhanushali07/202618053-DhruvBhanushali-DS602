@@ -3,7 +3,7 @@
 **Course:** Statistical Modeling with Python (Lab-4)  
 **Target Level:** M.Sc. Data Science (Semester 1)  
 **Dataset Selected:** Seaborn Tipping Behavior Dataset (`tips`)  
-**Live Application URL:** [Insert Streamlit Public Cloud URL Here (Optional Bonus)]
+**Live Application URL:** https://github.com/dhruvbhanushali07/202618053-DhruvBhanushali-DS602
 
 ---
 
