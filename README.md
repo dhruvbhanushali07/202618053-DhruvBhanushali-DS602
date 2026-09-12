@@ -41,7 +41,7 @@ The dataset contains $N = 244$ dining transaction records captured to measure re
 * **Categorical Association (Chi-Square Test):** A Chi-Square Test of Independence between `time` (Lunch/Dinner) and `day` confirms significant dependence ($p < 0.001$), reflecting distinct operating schedules.
 
 ### 3. OLS Regression & Gauss-Markov Diagnostics
-* **Model Equation:** $\text{tip} = \beta_0 + \beta_1(\text{total\_bill}) + \beta_2(\text{size}) + \sum \beta_k(\text{Categorical Controls}) + \varepsilon$
+
 * **Fit Quality:** The multiple linear regression model accounts for approximately **47% of the variance** in tip amounts ($R^2 \approx 0.470$).
 * **Key Coefficients:** `total_bill` ($\beta \approx 0.094, p < 0.001$) and party `size` ($\beta \approx 0.19, p < 0.05$) serve as statistically significant positive predictors. Categorical indicators like `sex` and `smoker` do not achieve statistical significance at $\alpha = 0.05$.
 * **Multicollinearity:** Variance Inflation Factors (VIF) for all continuous predictors remain well below $5.0$, confirming low levels of multicollinearity.
